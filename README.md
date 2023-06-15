@@ -1,3 +1,54 @@
+📁 tg_bot_template
+ |_ .env
+ |_ .env.example
+ |_ .gitignore
+ |_ bot.py
+ |_ requirements.txt
+ |_ 📁 config_data
+ |   |_ __init__.py
+ |   |_ config.py
+ |_ 📁 errors
+ |   |_ __init__.py
+ |   |_ errors.py
+ |_ 📁 external_services
+ |   |_ __init__.py
+ |_ 📁 filters
+ |   |_ __init__.py
+ |   |_ is_admin.py
+ |   |_ language_filter.py
+ |_ 📁 handlers
+ |   |_ __init__.py
+ |   |_ admin_handlers.py
+ |   |_ private_user_handlers.py
+ |   |_ user_handlers.py
+ |_ 📁 keyboards
+ |   |_ __init__.py
+ |   |_ keyboard_utils.py
+ |   |_ set_menu.py
+ |_ 📁 lexicon
+ |   |_ __init__.py
+ |   |_ lexicon_ru.py
+ |   |_ lexicon_en.py
+ |_ 📁 middlewares
+ |   |_ __init__.py
+ |   |_ throttling.py
+ |_ 📁 models
+ |   |_ __init__.py
+ |   |_ methods.py
+ |   |_ models.py
+ |_ 📁 services
+ |   |_ __init__.py
+ |   |_ services.py
+ |_ 📁 states
+ |   |_ __init__.py
+ |   |_ states.py
+ |_ 📁 tests
+ |   |_ __init__.py
+ |_ 📁 utils
+     |_ __init__.py
+     |_ utils.py
+
+
 ## 📁 tg_bot_template
 
 Это директория, в которой хранится проект. Сюда мы также устанавливаем виртуальное окружение, git, здесь IDE хранит свой
