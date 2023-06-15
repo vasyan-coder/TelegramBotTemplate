@@ -1,3 +1,4 @@
+```
 📁 tg_bot_template
  |_ .env
  |_ .env.example
@@ -47,7 +48,7 @@
  |_ 📁 utils
      |_ __init__.py
      |_ utils.py
-
+```
 
 ## 📁 tg_bot_template
 
